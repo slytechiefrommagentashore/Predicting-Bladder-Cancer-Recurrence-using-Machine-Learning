@@ -32,14 +32,16 @@ The dataset used in this project comes from **The Cancer Genome Atlas (TCGA) - B
 ## Repository Structure
 ```
 Bladder-Cancer-Recurrence-ML/
-│── data/               # Processed datasets (avoid storing raw sensitive data)
-│── notebooks/          # Jupyter notebooks for exploration & model training
-│── models/             # Trained ML models
-│── src/                # Python scripts for preprocessing & segmentation
-│── results/            # Evaluation metrics, plots, and reports
-│── README.md           # Project overview and instructions
-│── requirements.txt    # Dependencies (TensorFlow, PyTorch, etc.)
-│── .gitignore          # Ignore unnecessary files (DICOMs, cache, large datasets)
+│── clinical data/        # Processed clinical dataset
+│── histopathololgy data/ # Processed image dataset
+│── notebooks/            # Jupyter notebooks for exploration & model training
+│── models/               # Trained ML models
+│── src/                  # Python scripts for preprocessing & segmentation
+│── results/              # Evaluation metrics, plots, and reports
+│── projects folder/      # Evaluation metrics, plots, and reports
+│── README.md             # Project overview and instructions
+│── requirements.txt      # Dependencies (TensorFlow, PyTorch, etc.)
+│── .gitignore            # Ignore unnecessary files (DICOMs, cache, large datasets)
 ```
 
 ## Installation
